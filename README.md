@@ -4,6 +4,8 @@ Steps to setup locally:
 2. npm start
 3. open http://localhost:8080/
 
+PS: There is no need to setup the API locally. All origins are allowed at the server side.
+
 For Production build:
 1. npm run build-prod
 2. Then the production build will be ready in /public folder.
