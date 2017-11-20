@@ -2,6 +2,7 @@ Steps to setup locally:
 
 1. npm install
 2. npm start
+3. open http://localhost:8080/
 
 For Production build:
 1. npm run build-prod
