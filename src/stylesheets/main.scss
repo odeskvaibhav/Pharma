@@ -1,0 +1,105 @@
+.main-body{
+
+	/* Common Custom CSS*/
+	.paper{
+		padding: 15px;
+	}
+
+	.text-center{
+		text-align: center;	
+	}
+
+	.text-right{
+		text-align: right;		
+	}
+
+	.margin-right-5{
+		margin-right: 5px;
+	}
+
+	.margin-top-10{
+		margin-top: 10px;
+	}
+
+	.margin-top-20{
+		margin-top: 20px;
+	}
+
+	.width-100{
+		width: 100%;
+	}
+
+	.font-size-16{
+		font-size: 16px;
+	}
+
+	background: #e8e8e8;
+	min-height: 800px;
+
+	.color-red{
+		color: red;
+	}
+
+	.color-blue{
+		color: blue;
+	}
+
+	.color-green{
+		color: green;
+	}
+
+
+
+	.page-home{
+		.form-container, .step-2-container {
+		    margin-top: 60px;
+		    padding: 3.125rem 2.5rem;
+		}
+
+		.upload-container{
+			margin-bottom: 10px;
+		}
+
+		.upload-buttons{
+			margin-right: 10px;
+			width: 100%;
+		}
+	}	
+
+	.home-container{
+		min-height: 400px;
+		padding-top: 0px;
+
+		#header{
+			display: flex;
+		}
+
+		#header .header-left{
+			flex: 1;
+			justify-content: flex-start;
+		}
+
+		#header .header-right{
+			justify-content: flex-end;	
+			padding-top: 6px;
+		}
+
+		.header-block{
+			padding:0 5px;
+		}
+
+		.doc-container{
+			.doc-image{
+				overflow: hidden;
+				padding: 0px 15px 30px 15px;
+				height: 300px;
+				img{
+					width: 100%;
+					max-height: 100%;
+  					background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+  					border: 1px solid #dfdfdf;
+				}
+			}
+		}
+	}
+}

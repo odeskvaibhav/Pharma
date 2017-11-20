@@ -1,2 +1,0 @@
-# Pharma
-Pharma 
