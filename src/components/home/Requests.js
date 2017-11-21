@@ -20,7 +20,7 @@ import {
   TableRowColumn,
 } from 'material-ui/Table';
 import request from 'superagent';
-
+import _ from 'lodash';
 
 // Home page component
 class Requests extends Component {
@@ -65,7 +65,12 @@ class Requests extends Component {
       .end((err, response) => {
         if (!err && response.ok) {
           if(response.body.success == true){
-            this.getRequests();
+            let requests = this.state.requests;
+            let id = _.findIndex(requests, { request_id: requestObj.request_id });
+            requests[id].status =  newStatus;
+            this.setState({
+              requests
+            });
           }
         } else {
             
