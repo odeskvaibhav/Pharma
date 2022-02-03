@@ -10,8 +10,6 @@ For Production build:
 1. npm run build-prod
 2. Then the production build will be ready in /public folder.
 
-Demo Link: http://pharma.hariramjewellers.in/
-
 List of users:
 
 1. Consumer:
